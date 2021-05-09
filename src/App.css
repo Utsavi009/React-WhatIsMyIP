@@ -1,0 +1,40 @@
+body  {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 1rem;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+span {
+  margin: 0, 1rem, 0, 1rem;
+}
+
+.leaflet-container {
+  width: 100wh; 
+  height: 100vh;
+}
+
+.request-popup, .leaflet-popup-content-wrapper {
+  border-radius: 0px;
+}
+
+.colorBar {
+  display: flex;
+  flex: flex-wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 146, 110);
+  height: 3rem;
+  padding: 0px 1em; 
+}
